@@ -59,7 +59,7 @@ style_xaringan(
 
 class: center, middle
 
-## A statement of the overall goal / research question
+## Our goal with this project is investigating the differences in employment and salary and how it is affected by race, sex, age, ethinisity, industry.
 
 ---
 
