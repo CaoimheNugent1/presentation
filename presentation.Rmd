@@ -116,9 +116,8 @@ In this project we will be investigating employment (number of persons) and sala
 # Code
 
 ```{r boring-analysis}
-# a boring analysis
-ave <- mean(cars$dist)
-print(ave)
+ggplot(earn, aes(x = as.numeric(year), y = as.numeric(n_persons))) +
+  geom_hex()
 ```
 
 ---

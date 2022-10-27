@@ -249,14 +249,15 @@ In this project we will be investigating employment (number of persons) and sala
 
 
 ```r
-# a boring analysis
-ave &lt;- mean(cars$dist)
-print(ave)
+ggplot(earn, aes(x = as.numeric(year), y = as.numeric(n_persons))) +
+  geom_hex()
 ```
 
 ```
-## [1] 42.98
+## Warning: Computation failed in `stat_binhex()`:
 ```
+
+&lt;img src="presentation_files/figure-html/boring-analysis-1.png" width="80%" /&gt;
 
 ---
 
