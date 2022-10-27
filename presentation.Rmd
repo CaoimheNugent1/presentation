@@ -93,12 +93,11 @@ kable(head(employed), format = "html")
 
 ---
 
+class: inverse, center, middle
+
 
 ---
-#About data set 
-further analysis required for merging data sets together
 
----
 
 # Layouts
 
