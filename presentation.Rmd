@@ -100,23 +100,15 @@ class: inverse, center, middle
 ---
 
 
-# Layouts
+# What variables we will use 
 
-You can use plain text
+In this project we will be investigating employment and salary and how they are influenced by the variables : 
+- Race
+- Sex
+- Age
+- Ethnicity
+- Industry
 
-- or bullet points
-
-.pull-left[
-or text in two columns $^*$
-]
-.pull-right[
-- like
-- this
-]
-
-.footnote[
-[*] And add footnotes
-]
 
 ---
 
