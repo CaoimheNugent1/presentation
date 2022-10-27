@@ -66,9 +66,9 @@ class: inverse, center, middle
 
 - We are going to combine two sets of data to create one single data set to answer our question.
 
-- the first data "Earn" contains the variables : sex, race, ethnic origin, age, year, number of persons and median weekly earn.
+- The first data "Earn" contains the variables : sex, race, ethnic origin, age, year, number of persons and median weekly earn.
 
-- the second data set "Employed" contains the variables : industry, major occupation, minor occupation, race, gender, industry total, number employed and year
+- The second data set "Employed" contains the variables : industry, major occupation, minor occupation, race, gender, industry total, number employed and year
 
 
 
