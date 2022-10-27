@@ -1,7 +1,7 @@
 ---
-title: "Presentation title"
-subtitle: "Presentation subtitle (if any)"
-author: "Team name <br> Names of team members"
+title: "Analysis of Employment and Earnings Based on Different Variables"
+subtitle: "Extra Cool"
+author: "Squirrels <br> Caoimhe, Timi, Matthew, Myles and Joseph"
 institute: "University of Edinburgh"
 date: "`r Sys.Date()`"
 output:
