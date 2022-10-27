@@ -94,6 +94,7 @@ kable(head(employed), format = "html")
 ---
 
 class: inverse, center, middle
+# How we plan to analyse the data 
 
 
 ---
