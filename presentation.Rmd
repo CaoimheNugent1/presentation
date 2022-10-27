@@ -86,7 +86,7 @@ kable(head(earn), format = "html")
 ---
 class: middle, center
 # Second Data set: 
-##Earn Data frame 
+##Employed Data frame 
 ```{r employedshow, echo = FALSE}
 kable(head(employed), format = "html")
 ``` 
