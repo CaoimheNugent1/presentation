@@ -119,9 +119,9 @@ In this project we will be investigating employment (number of persons) and sala
 
 ---
 
-# Code
 
-```{r boring-analysis}
+
+```{r boring-analysis, echo=FALSE}
 n_people = as.numeric(earn$n_persons)
 library(ggplot2)
 ggplot(earn, aes(x = sex,
