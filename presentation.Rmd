@@ -109,6 +109,8 @@ In this project we will be investigating employment (number of persons) and sala
 - Age
 - Ethnicity
 - Industry
+- Year 
+
 
 
 ---
