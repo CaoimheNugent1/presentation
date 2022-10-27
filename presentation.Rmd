@@ -122,8 +122,18 @@ In this project we will be investigating employment (number of persons) and sala
 # Code
 
 ```{r boring-analysis}
-ggplot(earn, aes(x = as.numeric(year), y = as.numeric(n_persons))) +
-  geom_hex()
+n_people = as.numeric(earn$n_persons)
+library(ggplot2)
+ggplot(earn, aes(x = sex,
+                  y = n_people)) +
+  geom_boxplot() +
+  labs(
+    x = "sex",
+    y = " Number Employed",
+    title = "Number employed based on gender"
+    
+  )
+ 
 ```
 
 ---
