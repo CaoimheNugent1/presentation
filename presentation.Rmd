@@ -64,7 +64,9 @@ class: inverse, center, middle
 
 - The data was collected by the US Bureau of Labour Statistics between the years 2015 and 2020
 
-- 
+- We are combining to sets of data to create a table with the variables : sex, race, ethnic origin, age, year, n_persons (number of persons), median_weekly_earn (in dollars), industry, major occupation, minor occupation, industry total
+
+
 ---
 
 class: inverse, middle, center
