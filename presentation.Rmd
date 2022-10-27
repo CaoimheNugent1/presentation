@@ -74,21 +74,29 @@ class: inverse, center, middle
 
 ---
 
-class: inverse, middle, center
+class: middle, center
 
-# Using xaringan
+# First Data set: 
+##Earn Data frame 
+```{r earnshow, echo = FALSE}
+kable(head(earn), format = "html")
+``` 
+
+
+---
+class: middle, center
+# Second Data set: 
+##Earn Data frame 
+```{r employedshow, echo = FALSE}
+kable(head(employed), format = "html")
+``` 
 
 ---
 
-# xaringan
 
-- The presentation is created using the `xaringan` package
-
-- Use `---` to separate slides and `--` for incremental builds
-
---
-
-- Like this
+---
+#About data set 
+further analysis required for merging data sets together
 
 ---
 
@@ -165,7 +173,7 @@ ggplot(penguins, aes(x = bill_length_mm, y = species, color = species)) +
 If you want to generate a table, make sure it is in the HTML format (instead of Markdown or other formats), e.g.,
 
 ```{r iris-table, echo = FALSE}
-kable(head(iris), format = "html")
+kable(head(earn), format = "html")
 ```
 
 ---
