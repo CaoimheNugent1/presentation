@@ -1,6 +1,6 @@
 ---
 title: "Analysis of Employment and Earnings Based on Different Variables"
-subtitle: "Extra Cool"
+subtitle: "Smile and Have Fun!"
 author: "Squirrels <br> Caoimhe, Timi, Matthew, Myles and Joseph"
 institute: "University of Edinburgh"
 date: "`r Sys.Date()`"
@@ -21,6 +21,8 @@ library(tidyverse)
 library(palmerpenguins)
 library(knitr)
 library(xaringanthemer)
+library(xaringanExtra)
+use_animate_css()
 ```
 
 ```{r setup, include=FALSE}
@@ -46,17 +48,19 @@ style_xaringan(
 )
 ```
 
-class: center, middle
+class: center, middle, animated, rubberBand
 
 ## Our goal with this project is investigating the differences in employment and salary and how it is affected by race, sex, age, ethnicity, industry.
 
 ---
 
-class: inverse, center, middle
+class: inverse, center, middle, animated, bounceInLeft
 
 # Our Data Set: Employment and Earnings 
 
 ---
+
+class: animated, tada
 
 # About our Data Set
 
@@ -74,7 +78,7 @@ class: inverse, center, middle
 
 ---
 
-class: middle, center
+class: middle, center, animated, jello, slower
 
 # First Data set: 
 ##Earn Data frame 
@@ -84,7 +88,7 @@ kable(head(earn), format = "html")
 
 
 ---
-class: middle, center
+class: middle, center, animated, slideInDown, faster
 # Second Data set: 
 ##Employed Data frame 
 ```{r employedshow, echo = FALSE}
@@ -93,12 +97,12 @@ kable(head(employed), format = "html")
 
 ---
 
-class: inverse, center, middle
+class: inverse, center, middle, animated, backInDown
 # How we plan to analyse the data 
 
 
 ---
-
+class: animated, flipInY
 
 # What variables we will use 
 
@@ -109,6 +113,8 @@ In this project we will be investigating employment (number of persons) and sala
 - Age
 - Ethnicity
 - Industry
+- Year 
+
 
 
 ---
