@@ -48,13 +48,13 @@ style_xaringan(
 
 class: center, middle
 
-## Our goal with this project is investigating the differences in employment and salary and how it is affected by race, sex, age, ethinisity, industry.
+## Our goal with this project is investigating the differences in employment and salary and how it is affected by race, sex, age, ethnicity, industry.
 
 ---
 
 class: inverse, center, middle
 
-# Section title
+# Our Data Set: Employment and Earnings 
 
 ---
 
